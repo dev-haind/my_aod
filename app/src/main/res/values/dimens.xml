@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_icon_size">192dp</dimen>
+
+    <dimen name="widget_margin">0dp</dimen>
+    <dimen name="big_icon_size">96dp</dimen>
+    <dimen name="icon_size">48dp</dimen>
+    <dimen name="icon_margin">8dp</dimen>
+    <dimen name="dot_size">12dp</dimen>
+
+    <dimen name="edge_glow_width">4dp</dimen>
+    <dimen name="aod_spacing_8">8dp</dimen>
+    <dimen name="aod_fingerprint_size">64dp</dimen>
+
+    <dimen name="charging_progress_width">4dp</dimen>
+
+    <dimen name="common_corner_radius">8dp</dimen>
+
+</resources>

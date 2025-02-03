@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hainguyen.github.aod.actions.alwayson.AlwaysOnCustomView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view"
+    android:padding="?dialogPreferredPadding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />

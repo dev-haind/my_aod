@@ -1,0 +1,327 @@
+<resources>
+    <string name="device_admin_description">Allow AlwaysOn to turn off your screen</string>
+    <string name="notification_listener_description">Show notifications on the always on display</string>
+
+    <string name="service_text">AlwaysOn is running in the background</string>
+    <string name="service_channel">Service channel</string>
+
+    <string name="setup_root_failed">Root request failed! Please try again or switch mode!</string>
+    <string name="device_admin">Device Admin</string>
+    <string name="device_admin_summary">You need to activate this device admin or switch to root mode for this app to work.</string>
+    <string name="notification_listener_service">Notification Access</string>
+    <string name="notification_listener_service_summary">You need to enable notification access for the app to display your notifications on the always on display.</string>
+    <string name="setup_draw_over_other_apps">Display over other apps</string>
+    <string name="setup_draw_over_other_apps_summary">This permission is required to show the always on display.</string>
+    <string name="setup_phone_state">Read phone state</string>
+    <string name="setup_phone_state_summary">This permission is required to stop the always on display for incoming calls.</string>
+    <string name="setup_calendar">Read calendar</string>
+    <string name="setup_calendar_summary">You need to enable calendar access for the app to display your events on the always on display.</string>
+    <string name="setup_skip">Skip</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_error">Something went wrong! Please try again!</string>
+
+    <string name="dialog_device_admin_text">Please note that you have to deactivate the app\’s device admin privileges before uninstalling it! To make sure you understood this please perform the following operation:\n7 + 12</string>
+    <string name="dialog_device_admin_result">Result</string>
+    <string name="dialog_device_admin_error">Wrong result. Try again.</string>
+
+    <string name="app_name" translatable="false">My AOD</string>
+    <string name="app_description">Android app which adds an always on display</string>
+
+    <string name="AlwaysOn">Always on display</string>
+
+    <string name="date" translatable="false">EEE, MMMM d</string>
+    <string name="percent">%1$d%%</string>
+    <string name="charged">%1$d%% Charged</string>
+    <string name="music" translatable="false">%1$s - %2$s</string>
+
+    <string name="shortcut_disabled">Disabled</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_int_failed">This value cannot be used</string>
+
+    <string name="pref_general">General settings</string>
+    <string name="pref_enabled">Currently enabled</string>
+    <string name="pref_disabled">Currently disabled</string>
+    <string name="pref_always_on">Always on display</string>
+    <string name="pref_charging">Charging animation</string>
+
+    <string name="pref_look_and_feel">Look and feel</string>
+
+    <string name="pref_ao_watch_face">Watch face</string>
+    <string name="pref_ao_watch_face_summary">Settings related to the watch face of the AOD</string>
+    <string name="pref_ao_background">Background</string>
+    <string name="pref_ao_background_summary">Settings related to the background of the AOD</string>
+    <string name="pref_ao_behavior">Behavior</string>
+    <string name="pref_ao_behavior_summary">Settings related to the behavior of the app</string>
+    <string name="pref_ao_other">Other settings</string>
+
+    <string name="pref_look_and_feel_hour">Use 12-hour clock</string>
+    <string name="pref_look_and_feel_hour_summary_on">Currently used: 12-hour clock</string>
+    <string name="pref_look_and_feel_hour_summary_off">Currently used: 24-hour clock</string>
+    <string name="pref_look_and_feel_am_pm">Show AM / PM</string>
+    <string name="pref_look_and_feel_am_pm_summary">Show AM / PM when using 12-hour clock</string>
+
+    <string name="pref_look_and_feel_ao">Always on look</string>
+    <string name="pref_look_and_feel_ao_summary">Changes the look of the always on display</string>
+    <string-array name="pref_look_and_feel_ao_array_display">
+        <item>G-Style</item>
+        <item>O-Style</item>
+        <item>S-Vertical</item>
+        <item>S-Left</item>
+        <item>S-Split</item>
+        <item>80s</item>
+        <item>Fast</item>
+        <item>Flower</item>
+        <item>Game</item>
+        <item>Handwritten</item>
+        <item>Jungle</item>
+        <item>Western</item>
+        <item>Analog</item>
+    </string-array>
+    <string name="pref_look_and_feel_colors">Colors</string>
+    <string name="pref_look_and_feel_colors_summary">Select colors for certain elements</string>
+    <string name="pref_look_and_feel_colors_clock">Clock color</string>
+    <string name="pref_look_and_feel_colors_date">Date color</string>
+    <string name="pref_look_and_feel_colors_battery">Battery color</string>
+    <string name="pref_look_and_feel_colors_music_controls">Music controls color</string>
+    <string name="pref_look_and_feel_colors_calendar">Calendar event color</string>
+    <string name="pref_look_and_feel_colors_message">Message color</string>
+    <string name="pref_look_and_feel_colors_weather">Weather color</string>
+    <string name="pref_look_and_feel_colors_notification">Notification color</string>
+    <string name="pref_look_and_feel_colors_fingerprint">Fingerprint icon color</string>
+    <string name="pref_ao_showClock">Display the time</string>
+    <string name="pref_ao_showDate">Display the date</string>
+    <string name="pref_ao_showBatteryIcn">Display a battery icon</string>
+    <string name="pref_ao_showBattery">Display the battery percentage</string>
+    <string name="pref_ao_showMusicControls">Display music controls</string>
+    <string name="pref_ao_showNotifications">Display a notification count</string>
+    <string name="pref_ao_showNotificationIcons">Display notification icons</string>
+    <string name="pref_ao_fingerprint">Display a fingerprint icon</string>
+    <string name="pref_ao_fingerprint_margin">Fingerprint margin</string>
+    <string name="pref_ao_fingerprint_margin_summary">Space below the fingerprint icon</string>
+    <string name="pref_ao_edgeGlow">Edge glow</string>
+    <string name="pref_ao_edgeGlow_summary">Glowing edges when a notification is received</string>
+    <string name="pref_ao_glowDuration">Glowing duration (in milliseconds)</string>
+    <string name="pref_ao_glowDuration_summary">Duration the edges are glowing</string>
+    <string name="pref_ao_glowDelay">Glowing delay (in milliseconds)</string>
+    <string name="pref_ao_glowDelay_summary">Interval between the glows</string>
+    <string name="pref_ao_glowStyle">Edge glow style</string>
+    <string name="pref_ao_glowStyle_summary">Changes the look of the glowing edges</string>
+    <string name="pref_ao_glowColor">Edge glow color</string>
+    <string name="pref_ao_glowColor_summary">Changes the color of the glowing edges</string>
+    <string name="pref_ao_vibration">Vibration duration (in milliseconds)</string>
+    <string name="pref_ao_vibration_summary">Duration the phone vibrates when you double-tap the screen</string>
+    <string name="pref_ao_animation_delay">Movement delay (in minutes)</string>
+    <string name="pref_ao_animation_delay_summary">Time between the different positions of the content\nWarning: Too high values can cause screen burn-ins!</string>
+    <string name="pref_ao_smooth_animation">Animate motion</string>
+    <string name="pref_ao_smooth_animation_summary">Animate the position changes</string>
+    <string name="pref_ao_force_brightness">Force a certain brightness on the AOD</string>
+    <string name="pref_ao_force_brightness_summary">Tap to change the forced brightness</string>
+    <string name="pref_ao_force_brightness_title">Brightness</string>
+    <string name="pref_ao_force_brightness_example">This is how bright the text on your always on display will appear.</string>
+    <string name="pref_ao_pocket_mode">Pocket mode</string>
+    <string name="pref_ao_pocket_mode_summary">Disables the always on display in your pocket\nWarning: Sensor usage may cause increased battery usage!</string>
+    <string name="pref_ao_dnd">Do not disturb</string>
+    <string name="pref_ao_dnd_summary">Turns on do not disturb mode while the always on display is running</string>
+    <string name="pref_ao_power_saving">Power saving mode (root)</string>
+    <string name="pref_ao_power_saving_summary">Turns on the system\’s power saver mode when the always on display is enabled</string>
+    <string name="pref_ao_double_tap_speed">Double-tap speed</string>
+    <string name="pref_ao_double_tap_speed_summary">The time two taps can be apart (in milliseconds)</string>
+    <string name="pref_ao_double_tap_disabled">Disable double-tap</string>
+    <string name="pref_ao_double_tap_disabled_summary">Disables double-tap to exit the AOD (not recommended)</string>
+    <string name="pref_ao_message">Message</string>
+    <string name="pref_ao_message_summary">A message that is displayed on the AOD</string>
+    <string name="pref_ao_date_format">Date format</string>
+    <string name="pref_ao_date_format_summary">The date format used on the AOD</string>
+    <string name="pref_ao_date_format_dialog_text">You have to follow a specific pattern</string>
+    <string name="pref_ao_date_format_dialog_neutral">Learn more</string>
+    <string name="pref_ao_date_format_illegal">Illegal format</string>
+    <string name="pref_ao_calendar">Show events</string>
+    <string name="pref_ao_calendar_summary">Show events in the next 24h on your AOD</string>
+
+    <string name="pref_look_and_feel_charging">Charging animation look</string>
+    <string name="pref_look_and_feel_charging_summary">Changes the look of the charging animation</string>
+    <string-array name="pref_look_and_feel_charging_array_display" translatable="false">
+        <item>Circle</item>
+        <item>Flash</item>
+        <item>iOS</item>
+    </string-array>
+
+    <string name="pref_ao_background_image">Background image</string>
+    <string name="pref_ao_background_image_summary">Change the background image of the AOD</string>
+    <string-array name="pref_ao_background_image_array_display">
+        <item>None</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Daniel Olah</item>
+        <item>Filip Baotic</item>
+        <item>Tyler Lastovich</item>
+        <item>Tyler Lastovich</item>
+        <item>Tyler Lastovich</item>
+        <item>Custom</item>
+    </string-array>
+    <string name="pref_look_and_feel_hide_display_cutouts">Hide display cutouts</string>
+    <string name="pref_look_and_feel_hide_display_cutouts_summary">Hide display cutouts on fullscreen content</string>
+    <string name="pref_look_and_feel_orientation">Orientation</string>
+    <string name="pref_look_and_feel_orientation_summary">Changes the display\’s orientation</string>
+    <string name="pref_look_and_feel_heads_up">Hide heads up notifications (root)</string>
+    <string name="pref_look_and_feel_heads_up_summary">Prevents the heads up notifications from showing (experimental)</string>
+
+    <string name="pref_look_and_feel_weather">Weather</string>
+    <string name="pref_look_and_feel_weather_info">Show weather info</string>
+    <string name="pref_look_and_feel_weather_info_summary">Configure weather info on your AOD</string>
+    <string name="pref_look_and_feel_weather_show_summary">Show weather info on your AOD</string>
+    <string name="pref_look_and_feel_weather_provider">AlwaysOn uses wtrr.in for weather data. Fetching the weather may transfer identifiable data.</string>
+    <string name="pref_look_and_feel_weather_provider_name" translatable="false">wttr.in</string>
+    <string name="pref_look_and_feel_weather_location">Weather location</string>
+    <string name="pref_look_and_feel_weather_location_summary">The location for the weather report. Leave this empty for auto-location.</string>
+    <string name="pref_look_and_feel_weather_format">Weather format</string>
+    <string name="pref_look_and_feel_weather_format_summary">The weather format used on the AOD</string>
+
+    <string name="pref_look_and_feel_filter_notifications">Filter notifications</string>
+    <string name="pref_look_and_feel_filter_notifications_summary">Choose, which notifications not to show</string>
+    <string name="pref_look_and_feel_filter_notifications_explanation">Tap on the entries to block or unblock them</string>
+    <string name="pref_look_and_feel_filter_notifications_blocked">Block notifications from</string>
+    <string name="pref_look_and_feel_filter_notifications_shown">Notifications available from</string>
+    <string name="pref_look_and_feel_filter_notifications_empty">No notifications available</string>
+    <string name="pref_look_and_feel_filter_notifications_empty_summary">It seems that there is nothing to show</string>
+    <string name="pref_look_and_feel_filter_notifications_unknown">Unknown application</string>
+
+    <string name="pref_look_and_feel_tint_notifications">Tint notifications</string>
+    <string name="pref_look_and_feel_tint_notifications_summary">Tint notifications in their app colors</string>
+    <string name="pref_look_and_feel_display_size">Display size</string>
+    <string name="pref_look_and_feel_display_size_summary">The display size of the AOD is %1$d%%</string>
+
+    <string name="pref_look_and_feel_rules">Rules</string>
+    <string name="pref_look_and_feel_rules_summary">Control when to show the AOD</string>
+    <string name="pref_look_and_feel_rules_charging_state">Charging state</string>
+    <string name="pref_look_and_feel_rules_charger">Charging type</string>
+    <string name="pref_look_and_feel_rules_charger_summary">Choose which charging types count as charging</string>
+    <string name="pref_look_and_feel_rules_battery_level">Battery level</string>
+    <string name="pref_look_and_feel_rules_battery_level_summary">Show only above %1$d%%</string>
+    <string name="pref_look_and_feel_rules_battery_level_summary_zero">Show at any battery level</string>
+    <string name="pref_look_and_feel_rules_time">Time period</string>
+    <string name="pref_look_and_feel_rules_time_summary">Show from %1$s to %2$s</string>
+    <string name="pref_look_and_feel_rules_timeout">Timeout</string>
+    <string name="pref_look_and_feel_rules_timeout_summary_zero">No timeout has been set</string>
+    <string name="pref_look_and_feel_rules_ambient_mode">Ambient mode</string>
+    <string name="pref_look_and_feel_rules_ambient_mode_summary">Only show after a notification was received</string>
+
+    <string name="pref_permissions">Permissions</string>
+    <string name="pref_permissions_summary">Settings related to permissions</string>
+    <string name="pref_ignore_battery_optimizations">Ignore battery optimizations</string>
+    <string name="pref_ignore_battery_optimizations_summary">Prevents delays caused by the system</string>
+    <string name="pref_notification">Notification access</string>
+    <string name="pref_notification_summary">Enable or disable notification access</string>
+    <string name="pref_draw_over_other_apps">Display over other apps</string>
+    <string name="pref_draw_over_other_apps_summary">Enable or disable this permission</string>
+    <string name="pref_admin">Device admin</string>
+    <string name="pref_admin_summary">Activate this device admin for normal mode\nPlease note that you have to deactivate the app\’s device admin privileges before uninstalling it!</string>
+    <string name="pref_root_mode">Root mode</string>
+    <string name="pref_root_mode_summary">Enables root functionality</string>
+
+    <string name="help_center">Help center</string>
+    <string name="help_center_summary">Uninstalling, unresponsiveness, battery drain</string>
+    <string name="help_center_missing_permissions_text">When a setting is grayed out and tells you to enable something first, you have not enabled the needed permissions yet. To grant missing permissions open the “Permissions” page on the main page and consent to using the required permissions. You can now enable the settings that need those permissions.</string>
+    <string name="help_center_uninstall">How to uninstall</string>
+    <string name="help_center_uninstall_text">The uninstall process can fail due to a design flaw in the Android operating system. If the device admin permission was not disabled before uninstalling the process will fail. You have to disable the device admin permission before uninstalling.</string>
+    <string name="help_center_uninstall_button">Uninstall now</string>
+    <string name="help_center_delays">How to fix delays</string>
+    <string name="help_center_delays_text">Some manufacturers prefer battery life over app functionality which is why this app may only work with delays or not at all on some devices. If you are experiencing delays try disabling battery optimizations for the app or check other manufacturer-specific settings.</string>
+    <string name="help_center_delays_button_one">Battery Settings</string>
+    <string name="help_center_delays_button_two">Manufacturer-specific</string>
+    <string name="help_center_battery_drain">Figuring out the source of battery drain</string>
+    <string name="help_center_battery_drain_text">One reason for battery drain could be that you are using a phone with an LCD display. This app is designed for phones with an OLED display that can turn off black pixels to save energy. LCD displays cannot turn off black pixels which will result in the display using a lot more energy when the always on display is enabled.Another reason could be that other apps are running in the background while the always on display is running. Android will display their battery consumption as part of AlwaysOn’s battery consumption.</string>
+
+    <string name="loading">Loading</string>
+    <string name="missing_permissions">Missing Permissions</string>
+    <string name="permissions_notification_access">Turn on notification access for this feature</string>
+    <string name="permissions_device_admin_or_root">Turn on device admin or root for this feature</string>
+
+    <string name="about">About</string>
+    <string name="about_summary">About the app</string>
+    <string name="about_app_version">App version</string>
+    <string name="about_app_version_desc" translatable="false">%1$s (%2$d)</string>
+    <string name="about_privacy">External Content</string>
+    <string name="about_privacy_desc">External content will be loaded from GitHub. Read their privacy policy for further information.</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="about_contributors">Contributors</string>
+    <string name="about_contributors_desc">A list of the contributors</string>
+    <string name="about_general">General</string>
+    <string name="about_github">GitHub repository</string>
+    <string name="about_license">License</string>
+    <string name="about_license_desc" translatable="false">GPL-3.0</string>
+    <string name="about_icons">Icons</string>
+    <string name="about_icons_desc">Icons by Icons8 and Google</string>
+    <string name="about_libraries">Libraries</string>
+    <string name="about_libraries_desc">A list of all used libraries</string>
+
+    <string-array name="about_libraries" translatable="false">
+        <item>Android Preferences KTX</item>
+        <item>AppCompat</item>
+        <item>ColorPicker</item>
+        <item>Material Components For Android</item>
+        <item>Volley</item>
+    </string-array>
+    <string-array name="about_libraries_licenses" translatable="false">
+        <item>Apache 2.0</item>
+        <item>Apache 2.0</item>
+        <item>Apache 2.0</item>
+        <item>Apache 2.0</item>
+        <item>Apache 2.0</item>
+    </string-array>
+
+    <string-array name="pref_look_and_feel_rules_charging_state_display">
+        <item>Show at any charging state</item>
+        <item>Show only while charging</item>
+        <item>Show only while discharging</item>
+    </string-array>
+    <string-array name="pref_look_and_feel_rules_charging_state_values" translatable="false">
+        <item>always</item>
+        <item>charging</item>
+        <item>discharging</item>
+    </string-array>
+
+    <string-array name="pref_look_and_feel_rules_charger_display">
+        <item>AC</item>
+        <item>USB</item>
+        <item>Wireless</item>
+    </string-array>
+    <string-array name="pref_look_and_feel_rules_charger_values" translatable="false">
+        <item>ac</item>
+        <item>usb</item>
+        <item>wireless</item>
+    </string-array>
+
+    <string-array name="pref_look_and_feel_orientation_display">
+        <item>Auto-lock</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="pref_look_and_feel_orientation_values" translatable="false">
+        <item>locked</item>
+        <item>portrait</item>
+        <item>landscape</item>
+    </string-array>
+
+    <string-array name="pref_ao_glowStyle_display">
+        <item>All sides</item>
+        <item>Left and right sides</item>
+        <item>Top and bottom sides</item>
+    </string-array>
+    <string-array name="pref_ao_glowStyle_values" translatable="false">
+        <item>all</item>
+        <item>vertical</item>
+        <item>horizontal</item>
+    </string-array>
+
+    <string-array name="about_icons_array" translatable="false">
+        <item>Icons8</item>
+        <item>Google</item>
+    </string-array>
+</resources>
